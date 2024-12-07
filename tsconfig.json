@@ -1,11 +1,6 @@
 {
-  "include": [
-    "src/*"
-  ], // which files to compile
-  "exclude": [
-    "node_modules",
-    "dist"
-  ], // which files to skip "include": ["src"], // which files to compile
+  "include": ["src/*"], // which files to compile
+  "exclude": ["node_modules", "dist"], // which files to skip "include": ["src"], // which files to compile
   "compilerOptions": {
     "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "module": "commonjs" /* Specify what module code is generated. */,
